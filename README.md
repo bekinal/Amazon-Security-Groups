@@ -9,9 +9,10 @@ Project consists of creating security groups to govern ICMP and RDP access to AW
 
 - <b>Amazon Web Services</b>
 - <b>RDP</b>
+- Windows Server 2016
 
 <h2>Creating an ICMP Security Group:</h2>
-The instance created previously is navigated to:<br/>
+The Windows Server 2016 instance created previously is navigated to:<br/>
 <img src="https://imagizer.imageshack.com/img924/9360/m7G1se.png" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -89,7 +90,7 @@ ICMPv4 is selected from the dropdown:<br/>
 <img src="https://imagizer.imageshack.com/img923/1153/Dkf9Xk.png" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-NHothing is changed in scope:<br/>
+Nothing is changed in scope:<br/>
 <img src="https://imagizer.imageshack.com/img922/1623/g7zE8T.png" alt="Disk Sanitization Steps"/>
 <br />
 <br />
