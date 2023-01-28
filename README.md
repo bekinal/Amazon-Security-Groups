@@ -64,7 +64,51 @@ Successful connection to the server:<br/>
 <br />
 <br />
 
-
+<h2>Creating an ICMPv4 Security Group:</h2>
+The instance is attempting a ping from a host machine:<br/>
+<img src="https://imagizer.imageshack.com/img922/8615/H6VZjm.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+While connected to the instance via RDP, windows firewall with advanced security is opened:<br/>
+<img src="https://imagizer.imageshack.com/img923/5197/PadykY.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Inbound rules is opened and a new rule is created:<br/>
+<img src="https://imagizer.imageshack.com/img922/760/3QuU8p.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+In rule type, custom is selected:<br/>
+<img src="https://imagizer.imageshack.com/img923/801/FHTbgd.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+All programs is checked:<br/>
+<img src="https://imagizer.imageshack.com/img922/161/hQ8T8I.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ICMPv4 is selected from the dropdown:<br/>
+<img src="https://imagizer.imageshack.com/img923/1153/Dkf9Xk.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+NHothing is changed in scope:<br/>
+<img src="https://imagizer.imageshack.com/img922/1623/g7zE8T.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Nothing is changed in action:<br/>
+<img src="https://imagizer.imageshack.com/img924/4377/ZESMdX.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Nothing is changed in profile:<br/>
+<img src="https://imagizer.imageshack.com/img923/517/In8sxK.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The rule is named ICMPv4 allow and configuration is finished. A ping is now able to go through to the public IP:<br/>
+<img src="https://imagizer.imageshack.com/img922/1293/E3qeN3.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The session is disconnected, and the instance is stopped:<br/>
+<img src="https://imagizer.imageshack.com/img924/6775/97gGs1.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 <!--
  ```diff
